@@ -94,7 +94,7 @@ st.title("🧭 Der Resonanz-Kompass")
 st.caption("Ein Moment der Standortbestimmung – spürbar, geerdet und integral.")
 
 # 2. API-Schlüssel
-MY_API_KEY = "os.getenv("GEMINI_API_KEY")"
+MY_API_KEY = os.getenv("GEMINI_API_KEY")
 
 st.write("---")
 
